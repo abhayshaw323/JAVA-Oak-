@@ -1,0 +1,8 @@
+Definition : A HashMap stores key-value pairs using a hash table.It allows one null key and multiple null values.
+Advantages 
+    fast average-time performance for get and put operations(O(1)).
+    Unique keys:Inserting a duplicate key replace its value.
+Common Methods: 
+    put(key,value),get(key),remove(key),containsKey(key),containsValue(value),keyset(),entrySet(),size(),clear().
+Use Cases:
+    caching,configuration settings,dictionary implementations etc.

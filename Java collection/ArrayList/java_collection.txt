@@ -1,0 +1,22 @@
+Defintion :-
+    Collection are data structure that group multiple elements into a single unit.
+    The java Collection framework(in java.util) provides standard interface(list,set,Map) and their implementation.
+
+Advantage over arrays:
+    Dynamic Sizing : Automatically adjust to the number of elements.
+    Rich API : Methods for adding,Searching,sorting etc.
+    Type Safety : Use of generics minimizes runtime type errors.
+    Utility Methods : Built-in support for common algorithms(e.g., sorting).
+
+Use cases :
+    Managing dynamic user inputs(Shopping carts,to-do lists).
+    Data-driven application with frequently changing data sets.
+What is ArrayList?
+    Addition : add(element) and add(index,element).
+    Access : get(index).
+    Update : set(index,element).
+    Removal : remove(index) or remove(object).
+    Other Methods : size(),contains(element),clear(),indexOf(element).
+Features:
+    Random access with index lookup.
+    ideal for dynamic,frequently modified data.

@@ -1,0 +1,17 @@
+Definition :-
+    A HashSet is a collection that contains no duplicate element and is backed by a hash table(Using a HashMap internally).
+    It is part of the java.util package.
+
+Characteristics :- 
+    No Duplicates: Automatically prevent duplicate values.
+    Unordered : The elment are not stored in any particular order.
+    Fast Operations : offers constant-time performance (o(1)) for basic operation like add,remove, and contains on average.
+    Null Element : Allows one null element.
+
+Common Methods : 
+    add(element),remove(element),contains(element),size(),isEmpty(),clear(),and methods for iteration.
+    
+Use cases : 
+    Eliminating duplicates from a collection.
+    Fast membership checking.
+    Implementing mathematical sets (union,intersection,difference).

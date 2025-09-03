@@ -1,0 +1,17 @@
+ Key Points:
+ • Definition:
+ A Queue is a linear data structure that follows the First-In-First-Out (FIFO)
+ principle.
+ • Core Operations:
+  add(element) / offer(element): Insert an element at the rear.
+  remove() / poll(): Remove and return the front element.
+  peek() / element(): Retrieve the front element without removal.
+  size(): Return the number of elements.
+  isEmpty(): Check if the queue is empty.
+ • Usage:
+  Commonly used in scheduling, breadth-first search, and buffering.
+ • Implementation:
+  Java provides the java.util.Queue interface. A common implementation is via
+ LinkedList.
+Topic : Queue
+ Example 1 – Creating and Enqueuing Element

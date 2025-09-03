@@ -1,0 +1,43 @@
+definition: A linked list is a doubly-linked list implementation of the list and deque interface in java.
+
+Advantage :- 
+    Efficient insertion and deletion at the begining or end.
+    useful when frequent modification occur.
+
+disadvantage :- 
+    slower random access compared to ArrayList.
+
+Common Methods:
+    add(),addFirst,addLast()
+    remove(),removeFirst(),removeLast()
+    get(),getFirst(),getLast(),set()
+    size(),contains(),clear()
+
+key Point :- Linked list is optional for scenarios that require many insertion and deletion.
+
+SORTING BASICS:
+    Sorting arranges element in a specified order(natural Or custom).
+    Natural order for number is ascending:forString,lexicographical.
+        lexicographical means : where soting is done in alphabetical order.(ordering on the basis of ASCII Value).
+USING COLLECTION.sort();
+    collection.sort(list) sort a list in natural order.
+Custom Sorting:
+    Provide a comparator for custom order(e.g.,descending order).
+    Lamda a expression can be used for concise custom comparator.
+Consideration:
+    Sorting an ArrayList is generally fast using merge sort.
+    For linkedList,sorting is less Efficient due to sequential access.
+Key point:
+    List sorting is essential for data organization;java provides built-in methods for both natural and custom ordering.
+
+Linked List:
+    use for efficient insertion and deletion;not ideal for random access.
+    Commmon operations:add,addFirst,addLast,remove,get,set,and iteration.
+List sorting:
+    Natural ordering via Collection.sort().
+    Custom ordering requires a Comparator or lamda expression.
+Best Practices:
+    Use Generics to ensure type safety.
+    For custom objects,define a clear Comparator based on key attributes.
+    Test edge cases(e.g.,empty lists,null values) when sorting.
+    Choose the appropriate collection type based on your access and modification needs.

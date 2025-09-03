@@ -1,0 +1,38 @@
+ Definition:
+    OOP (Object-Oriented Programming) is a programming paradigm based on 
+the concept of "objects" that encapsulate data and behavior.
+ • Key Principles:
+
+  Encapsulation: Bundling data (attributes) and methods (functions) that 
+operate on the data into a single unit (class).
+
+  Inheritance: Ability to create new classes based on existing classes, 
+inheriting attributes and behaviors.
+
+  Polymorphism: Ability to treat objects of different classes through a 
+common interface, typically using method overriding or overloading.
+
+  Abstraction: Hiding complex implementation details and showing only the 
+necessary features of an object.
+
+Benefits:
+   Modularity(divde the code into sub-code by logical way), reusability, ease of maintenance, and improved problem 
+modeling.
+
+Classes:
+Blueprint for creating objects.
+Contains attributes (data members) and methods (functions) that define 
+the object's behavior.
+
+Objects:
+ Instances of a class created at runtime.
+
+Constructors:
+ Special methods that initialize new objects.
+
+Access Modifiers:
+    public, private, protected – control access to class members.
+
+Static vs. Instance Members:
+    Static members: Belong to the class; shared across all instances.
+    Instance members: Unique to each object instance.

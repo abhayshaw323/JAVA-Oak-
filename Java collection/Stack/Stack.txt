@@ -1,0 +1,15 @@
+ Key Point:
+ • Definition:
+ A Stack is a linear data structure that follows the Last-In-First-Out (LIFO)
+ principle.
+ • Core Operations:
+ push(item): Add an item to the top of the stack.
+ pop(): Remove and return the top item.
+ peek(): Return the top item without removing it.
+ empty(): Check whether the stack is empty.
+ search(item): Return the 1-based position from the top of the stack.
+ • Usage:
+ o Useful in scenarios such as expression evaluation, backtracking, and function
+ call management.
+ • Implementation:
+ Java provides the java.util.Stack class which extends Vector
