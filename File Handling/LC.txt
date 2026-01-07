@@ -1,0 +1,5 @@
+ML:-
+Min Max scalar
+Standard Scalar
+Greedy and descent
+ 
