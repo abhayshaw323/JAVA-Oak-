@@ -2,10 +2,12 @@ public class SearchInASortedMatrix {
     
     public static boolean SearchMatrix(int[][] arr , int target){
         int rows = arr.length,cols = arr[0].length;
+        System.out.println(rows);
+        System.out.println(cols);
         int lo = 0, hi = rows*cols-1;
         while(lo<=hi){
             int mid = (lo+hi)/2;
-            int midRow = mid/cols, midCol = mid%rows;
+            int midRow = mid / cols, midCol = mid % cols;
             if(arr[midRow][midCol] == target) return true;
             else if(arr[midRow][midCol]>target) hi = mid-1;
             else lo = mid +1;
