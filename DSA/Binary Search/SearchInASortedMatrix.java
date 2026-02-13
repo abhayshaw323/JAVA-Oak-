@@ -21,7 +21,7 @@ public class SearchInASortedMatrix {
             {38,41,47,49,55},
             {67,68,75,76,81},
             {84,89,91,92,98}
-                            };
+            };
             int target = 0;
             System.out.println(SearchMatrix(arr,target));
     }
