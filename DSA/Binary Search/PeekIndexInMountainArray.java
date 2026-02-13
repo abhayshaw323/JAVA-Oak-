@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class PeekIndexInMountainArray {
     public static int peek(int[] arr){
         int low = 1, high = arr.length -2 ;                                                      
