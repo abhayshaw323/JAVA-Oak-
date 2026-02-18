@@ -9,7 +9,7 @@ public class powerSet {
             return;
         }
         char ch = s.charAt(idx);
-        subsets(ans+ch,s,idx+1);
-        subsets(ans,s,idx+1);
+        subsets(ans+ch,s,idx+1);    //pick
+        subsets(ans,s,idx+1);       //skip
     }
 }
