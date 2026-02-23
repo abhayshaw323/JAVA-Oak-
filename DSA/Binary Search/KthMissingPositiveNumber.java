@@ -1,8 +1,10 @@
-public class ArrangingCoins {
-
-        
+public class KthMissingPositiveNumber {
 
 
+
+
+
+    
     public static void main(String[] args) {
         
     }
