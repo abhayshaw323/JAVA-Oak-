@@ -7,6 +7,24 @@ class Node{
 }
 
 public class NodesOfLinkedList{
+
+    public static void get(Node head , int idx){
+        int i = idx ;
+        Node temp = head;
+        while(i > 0){
+            temp = temp.next;
+            i--;
+        }
+        System.out.println(temp.val);
+    }
+
+    public static void displayRec(Node head){
+        if(head == null) return;
+        displayRec(head.next);
+        System.out.println(head.val + " ");
+    } //if we interchange the line 14 and 15 then the output will be in the present order else it will be the reverse of the present order 
+
+
     public static void display(Node head){
         Node temp = head;
         while(temp != null){
@@ -28,7 +46,10 @@ public class NodesOfLinkedList{
         d.next = e;
         e.next = null;
         display(a);
-
+        System.out.println(".....................................");
+        displayRec(a);
+        System.out.println(".....................................");
+        get(a, 2);
         System.out.println(".....................................");
         System.out.println(a.next.next.next.next.next);
         System.out.println(b.next.next.val);
