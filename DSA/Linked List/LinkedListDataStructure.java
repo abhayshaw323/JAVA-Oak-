@@ -148,6 +148,6 @@ public class LinkedListDataStructure {
         System.out.println("Printing the size of Linked List " + ll.size);
         ll.deleteAtIndex(5);         
         System.out.println("Printing the size of Linked List " + ll.size);
+    
     }
-
-}
+} 
