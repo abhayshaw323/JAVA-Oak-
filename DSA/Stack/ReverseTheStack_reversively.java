@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class ReverseTheStack {
+public class ReverseTheStack_reversively {
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
         st.push(10);// bottom

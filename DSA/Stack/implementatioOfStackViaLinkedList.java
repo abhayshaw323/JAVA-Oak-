@@ -13,9 +13,10 @@ class MyStack{
         if(head == null){
             System.out.println("Stack is empty");
             return -1;
-     /   }
+        }
         return head.val;
     }
+
     int pop(){
         if(head == null){
             System.out.println("Stack is empty");
@@ -26,18 +27,18 @@ class MyStack{
         len --;
         return x;
     }
+
     void push(int ele){
         Node temp = new Node(ele);
-        if(len==0) head = temp;
-        else {
         temp.next = head;
         head = temp;
-      }
-      len++;
+        len++; 
     }
+
     int size(){
         return len;
     }
+
     void display(){
         Node temp = head;
         while(temp!=null){
@@ -45,6 +46,7 @@ class MyStack{
             temp = temp.next;
         }
     }
+
 }
 
 
@@ -56,7 +58,7 @@ public class implementatioOfStackViaLinkedList {
         st.push(20);
         st.push(30);
         st.push(40);
-
+        System.out.println("Top element "+st.peek());
         st.display();
     }   
 }
