@@ -6,6 +6,8 @@ public class ParanthesisChecker {
         System.out.println(isBalanced(s));
     }
     static boolean isBalanced(String s){
+        int n = s.length();
+        if(n%2 == 1) return false;
         Stack<Character> st = new Stack<>();
         for(int i=0;i<s.length();i++){
             char ch = s.charAt(i);
@@ -24,6 +26,5 @@ public class ParanthesisChecker {
         if(a=='[' && b==']') return true;
         if(a=='{' && b=='}') return true;
         return false;
-
     }
 }
